@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Freda Karol — Eau de Parfum floreale, delicata e luminosa. Un omaggio rosa alla pittrice e al suo immaginario." />
+  <title>Freda Karol — Eau de Parfum</title>
+
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="preload" as="image" href="assets/freda-karol.webp" imagesrcset="assets/freda-karol.webp 1200w" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip" href="#contenuto">Vai al contenuto</a>
+
+  <header class="topbar">
+    <div class="wrap topbar__inner">
+      <div class="brand">
+        <span class="brand__mark" aria-hidden="true">✿</span>
+        <span class="brand__name">Freda Karol</span>
+      </div>
+
+      <nav class="nav" aria-label="Navigazione principale">
+        <a href="#note">Note</a>
+        <a href="#palette">Palette</a>
+        <a href="#storia">Storia</a>
+        <a class="btn btn--small" href="#acquista">Acquista</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenuto">
+    <section class="hero">
+      <div class="wrap hero__grid">
+        <div class="hero__copy">
+          <p class="kicker">Eau de Parfum • Floreale rosato</p>
+          <h1>Un profumo che dipinge.<br/>E resta.</h1>
+          <p class="lead">
+            Freda Karol è un bouquet luminoso: petali rosa, aria pulita e un fondo caldo, morbido,
+            come una pennellata che non chiede permesso.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn" href="#acquista">Scopri il flacone</a>
+            <button class="btn btn--ghost" id="openNotes" type="button" aria-haspopup="dialog">
+              Piramide olfattiva
+            </button>
+          </div>
+
+          <ul class="badges" aria-label="Caratteristiche principali">
+            <li>Floreale</li>
+            <li>Rosa cipria</li>
+            <li>Elegante • non invadente</li>
+          </ul>
+
+          <div class="stats" aria-label="Dati sintetici (marketing)">
+            <div class="stat">
+              <div class="stat__big">8–10h</div>
+              <div class="stat__small">persistenza</div>
+            </div>
+            <div class="stat">
+              <div class="stat__big">EDP</div>
+              <div class="stat__small">intensità</div>
+            </div>
+            <div class="stat">
+              <div class="stat__big">50ml</div>
+              <div class="stat__small">formato</div>
+            </div>
+          </div>
+        </div>
+
+        <figure class="hero__figure">
+          <img
+            src="assets/freda-karol.webp"
+            width="1200"
+            height="1200"
+            alt="Flacone di profumo rosa 'Freda Karol' con decorazioni floreali."
+            loading="eager"
+            decoding="async"
+          />
+          <figcaption>Palette rosa, luce morbida, dettaglio floreale.</figcaption>
+        </figure>
+      </div>
+
+      <div class="hero__glow" aria-hidden="true"></div>
+    </section>
+
+    <section id="note" class="section">
+      <div class="wrap">
+        <div class="section__head">
+          <h2>Note olfattive</h2>
+          <p>Tre movimenti: apertura fresca, cuore floreale, fondo avvolgente.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Testa</h3>
+            <p>Peonia rosa • Litchi • Bergamotto</p>
+            <div class="chip">apertura brillante</div>
+          </article>
+
+          <article class="card">
+            <h3>Cuore</h3>
+            <p>Rosa antica • Hibiscus • Gelsomino</p>
+            <div class="chip">bouquet pittorico</div>
+          </article>
+
+          <article class="card">
+            <h3>Fondo</h3>
+            <p>Musk pulito • Vaniglia leggera • Legni chiari</p>
+            <div class="chip">scia morbida</div>
+          </article>
+        </div>
+
+        <div class="callout">
+          <div>
+            <h3>Come si indossa</h3>
+            <p>
+              2 spruzzi: polsi e collo. Se vuoi la scia “velluto”, un terzo spruzzo sul retro dei capelli.
+              Non strofinare: lascia asciugare, come una tempera.
+            </p>
+          </div>
+          <div class="callout__meta">
+            <div class="metaRow"><span>Stagione</span><strong>Primavera • Autunno</strong></div>
+            <div class="metaRow"><span>Occasione</span><strong>Quotidiano • sera</strong></div>
+            <div class="metaRow"><span>Stile</span><strong>romantico, moderno</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="palette" class="section section--alt">
+      <div class="wrap">
+        <div class="section__head">
+          <h2>Palette (rosa, ma con carattere)</h2>
+          <p>Colori ispirati al flacone: cipria, petalo, lampone e oro caldo.</p>
+        </div>
+
+        <div class="palette" role="list">
+          <button class="swatch" data-hex="#F7D5DF" type="button" role="listitem" aria-label="Cipria #F7D5DF">
+            <span class="swatch__color" style="--c:#F7D5DF"></span>
+            <span class="swatch__label">Cipria<br><small>#F7D5DF</small></span>
+          </button>
+          <button class="swatch" data-hex="#F0A9BE" type="button" role="listitem" aria-label="Petalo #F0A9BE">
+            <span class="swatch__color" style="--c:#F0A9BE"></span>
+            <span class="swatch__label">Petalo<br><small>#F0A9BE</small></span>
+          </button>
+          <button class="swatch" data-hex="#D86B8C" type="button" role="listitem" aria-label="Lampone #D86B8C">
+            <span class="swatch__color" style="--c:#D86B8C"></span>
+            <span class="swatch__label">Lampone<br><small>#D86B8C</small></span>
+          </button>
+          <button class="swatch" data-hex="#B68B4E" type="button" role="listitem" aria-label="Oro caldo #B68B4E">
+            <span class="swatch__color" style="--c:#B68B4E"></span>
+            <span class="swatch__label">Oro caldo<br><small>#B68B4E</small></span>
+          </button>
+        </div>
+
+        <p class="hint" id="copyHint" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section id="storia" class="section">
+      <div class="wrap story">
+        <div class="story__copy">
+          <h2>Storia breve (e seria)</h2>
+          <p>
+            C’è una differenza tra “floreale” e “fiorito”. Il primo è una scelta. Il secondo è una scusa.
+            Freda Karol nasce per stare dalla parte della scelta: rosa piena ma pulita, luminosa,
+            con un fondo che non appiccica.
+          </p>
+          <p>
+            L’idea è semplice: un profumo come un quadro — ti avvicini, cogli i dettagli, e poi
+            ti resta addosso una sensazione intera. Non un rumore.
+          </p>
+          <ul class="ticks">
+            <li>Una firma delicata (ma riconoscibile)</li>
+            <li>Scia morbida, senza “invadere la stanza”</li>
+            <li>Perfetto su pelle e tessuti leggeri</li>
+          </ul>
+        </div>
+
+        <div class="story__panel">
+          <div class="panel">
+            <h3>Edizione</h3>
+            <p>Limited Concept</p>
+            <hr>
+            <div class="metaRow"><span>Formato</span><strong>50ml</strong></div>
+            <div class="metaRow"><span>Concentrazione</span><strong>Eau de Parfum</strong></div>
+            <div class="metaRow"><span>Famiglia</span><strong>Floreale muschiato</strong></div>
+            <div class="metaRow"><span>Codice</span><strong>FK-ROSE-01</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="acquista" class="section section--cta">
+      <div class="wrap cta">
+        <div>
+          <h2>Portalo con te.</h2>
+          <p>
+            Se vuoi un profumo rosa che non sembri un giocattolo, eccolo.
+            Un gesto piccolo, un effetto pulito.
+          </p>
+          <div class="cta__row">
+            <a class="btn btn--dark" href="#" aria-disabled="true" onclick="return false;">Aggiungi al carrello</a>
+            <a class="btn btn--ghostDark" href="#" aria-disabled="true" onclick="return false;">Richiedi campione</a>
+          </div>
+          <p class="micro">
+            (I pulsanti sono demo: collega qui il tuo shop o un modulo.)
+          </p>
+        </div>
+
+        <div class="cta__box" aria-label="Garanzie">
+          <div class="guarantee">
+            <strong>Packaging</strong>
+            <span>cura + protezione</span>
+          </div>
+          <div class="guarantee">
+            <strong>Spedizione</strong>
+            <span>rapida e tracciata</span>
+          </div>
+          <div class="guarantee">
+            <strong>Reso</strong>
+            <span>entro 14 giorni</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <p>© <span id="year"></span> Freda Karol — Concept page.</p>
+      <p class="footer__small">Sito statico pronto per GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal" id="notesModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__panel" role="document">
+      <div class="modal__head">
+        <h2 id="modalTitle">Piramide olfattiva</h2>
+        <button class="iconBtn" type="button" aria-label="Chiudi" data-close>✕</button>
+      </div>
+      <div class="modal__body">
+        <div class="pyramid">
+          <div class="pyramid__row pyramid__row--top">
+            <div class="pyrCard">
+              <span class="pyrTag">Testa</span>
+              <strong>Peonia • Litchi • Bergamotto</strong>
+              <p>Fresca, brillante, rosata.</p>
+            </div>
+          </div>
+          <div class="pyramid__row pyramid__row--mid">
+            <div class="pyrCard">
+              <span class="pyrTag">Cuore</span>
+              <strong>Rosa antica • Hibiscus • Gelsomino</strong>
+              <p>Il centro: pieno, floreale, “pittorico”.</p>
+            </div>
+          </div>
+          <div class="pyramid__row pyramid__row--bot">
+            <div class="pyrCard">
+              <span class="pyrTag">Fondo</span>
+              <strong>Musk • Vaniglia • Legni chiari</strong>
+              <p>Morbidissimo, pulito, persistente.</p>
+            </div>
+          </div>
+        </div>
+        <p class="micro">Tip: clicca un colore nella palette per copiarne il codice HEX.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
